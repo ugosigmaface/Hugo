@@ -1,0 +1,66 @@
+body{
+    margin: 0%;
+}
+     h1{
+        padding: 20px;
+        margin: 0%;
+     }
+
+     h4{
+        margin: 0;
+     }
+header{
+    background-color: black;
+    color: rgb(103, 100, 255);
+    font-size: 50px;
+    text-align: center;
+    background-image: url(https://british-bakery.ru/upload/iblock/ed4/ed49576bb85e1f7dc6b6d28683c418f2.jpg);
+    font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+    background-size:contain;
+    text-shadow: 2px 2px 5px #000000;
+    padding: 30px;
+}
+    
+main{
+    background-color: rgb(60, 255, 0);
+    color: rgb(0, 4, 255);
+    font-size: 20px;
+    text-align: center;
+padding: 10PX;
+}
+footer{
+    background-color: rgb(255, 66, 255);
+    color:  rgb(255, 179, 66);
+    font-size: 30px;
+    text-align: center;
+    height: 100%;
+    padding-top: 20px;
+    padding-bottom: 0px;
+}
+
+.container{
+    display: flex;
+    width: 100%;
+}
+
+.left{
+    width: 50%;
+}
+
+.right{
+    width:50%;
+}
+
+.social img{
+    width: 100px;
+    padding-left: 20px;
+    height: 100px;
+}
+
+.social{
+    list-style:none;
+    display: flex;
+    justify-content: center;
+}
